@@ -48,5 +48,5 @@ For one, while I understand that a traditional hackathon isn't possible in the c
 
 I look forward to when things return to normal so I can meet with friendos, share colins and appreciate Scotch with the best team I have worked with to date and to also be able to take part in hackathons like //Slash in Berlin and other "IRL" hackathons but until then my friends... 
   
-Happy hacking
+Happy hacking  
 Tom 
