@@ -39,12 +39,12 @@ a:hover, a:active{
     color: #444;
 }
 
-ul{
+.social-wrapper{
     display: inline-block;
     margin: 40px 0px;
 }
 
-li{
+.social-item{
     display: inline;
     margin: 30px;
 }
