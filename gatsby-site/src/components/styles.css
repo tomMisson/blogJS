@@ -42,6 +42,7 @@ a:hover, a:active{
 .social-wrapper{
     display: inline-block;
     margin: 40px 0px;
+    list-style-type:none;
 }
 
 .social-item{
@@ -115,7 +116,6 @@ svg{
 
     .social-wrapper{
         margin: 100px 100px 10px 100px;
-        list-style-type:none;
     }
 }
 
