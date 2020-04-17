@@ -1,8 +1,3 @@
-h3{
-    margin: 0;
-    clear: both;
-}
-
 .post{
     border: 1px solid #ddd;
     border-radius: 25px;
@@ -40,15 +35,18 @@ a:hover, a:active{
 }
 
 .social-wrapper{
+    margin: 3rem 0;
     display: inline;
 }
 
 .social-item{
     display: inline;
+    margin: 3rem 20px;
 }
 
 footer{
     text-align: center;
+    margin-top: 4rem;
 }
 
 .social{
@@ -81,8 +79,7 @@ footer{
 }
 
 hr{
-    width: 75%;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
 .blog-post-content{
@@ -92,6 +89,10 @@ hr{
 svg{
     width: 64px;
     height: 64px;
+}
+
+footer p{
+    padding-top: 30px;
 }
 
 @media screen and (min-width: 764px) {
@@ -110,6 +111,14 @@ svg{
     .post small{
         float: right;
     }
+
+    .social-wrapper{
+        margin: 100px 100px 10px 100px;
+    }
+
+    .social-item{
+        margin: 3rem 20px;
+    }
 }
 
 @media screen and (min-width: 1220px) {
@@ -125,5 +134,13 @@ svg{
         max-height: 100px;
         padding: 10px;
         margin-right: 30px;
+    }
+
+    .social-wrapper{
+        margin: 100px 100px 10px 100px;
+    }
+
+    .social-item{
+        margin: 3rem 20px;
     }
 }
