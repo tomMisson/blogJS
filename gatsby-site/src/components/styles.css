@@ -40,14 +40,11 @@ a:hover, a:active{
 }
 
 .social-wrapper{
-    display: inline-block;
-    margin: 40px 0px;
-    list-style-type:none;
+    display: inline;
 }
 
 .social-item{
     display: inline;
-    margin: 30px;
 }
 
 footer{
@@ -113,10 +110,6 @@ svg{
     .post small{
         float: right;
     }
-
-    .social-wrapper{
-        margin: 100px 100px 10px 100px;
-    }
 }
 
 @media screen and (min-width: 1220px) {
@@ -132,9 +125,5 @@ svg{
         max-height: 100px;
         padding: 10px;
         margin-right: 30px;
-    }
-
-    .social-wrapper{
-        margin: 100px 100px 10px 100px;
     }
 }

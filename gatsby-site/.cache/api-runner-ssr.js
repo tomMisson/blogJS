@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/tom/Documents/portfolioJS/Blog/gatsby-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/tom/Documents/Blog/gatsby-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/tom/Documents/portfolioJS/Blog/gatsby-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/tom/Documents/Blog/gatsby-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Tom Misson Blog","short_name":"starter","start_url":"/","background_color":"#fc9403","theme_color":"#fc9403","display":"minimal-ui","icon":"src/images/icon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
