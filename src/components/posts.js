@@ -36,8 +36,6 @@ const Posts = () => {
 
     var diff = currentDate - postDate;
 
-    while(diff>0)
-
     // //Exact
     var secondsDiff = Math.round(diff/1000);
     var minsDiff = Math.round(secondsDiff/60);

@@ -143,4 +143,8 @@ footer p{
     .social-item{
         margin: 3rem 20px;
     }
+
+    .blog-post-content{
+        margin: auto 20vw; 
+    }
 }

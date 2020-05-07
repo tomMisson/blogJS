@@ -17,10 +17,8 @@ export default function Template({ data }) {
         <div className="sub-header">
           <h1>{frontmatter.title}</h1>
           <p className="desc">{frontmatter.desc}<small className="desc">  -  {frontmatter.date}</small></p>
+          <hr/>
         </div>
-
-        <hr/>
-        
         <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
