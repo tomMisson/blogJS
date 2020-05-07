@@ -18,7 +18,7 @@ const Posts = () => {
             titleimg
             theme
             desc
-            date(fromNow: true)
+            date
             path
             visible
           }
@@ -27,6 +27,30 @@ const Posts = () => {
     }
   }
   `)
+
+  const timeDiff = (postDate) => {
+    var currentDate = Date.now()
+    var splitDate = postDate.split(/([-\s:])/g)
+
+    postDate = Date.UTC(splitDate[0],parseInt(splitDate[2])-1+"", splitDate[4],splitDate[6],splitDate[8])
+
+    var diff = currentDate - postDate;
+
+    while(diff>0)
+
+    // //Exact
+    var secondsDiff = Math.round(diff/1000);
+    var minsDiff = Math.round(secondsDiff/60);
+    var hoursDiff = Math.round(minsDiff/60);
+    var days = Math.round(hoursDiff/24);
+
+    //Relative
+    hoursDiff = Math.round(hoursDiff-(days*24))
+    minsDiff = Math.round(minsDiff - hoursDiff*60)
+    secondsDiff = Math.round(secondsDiff -(minsDiff*60))
+
+    console.log("Difference:" + days + " " + hoursDiff + " " + minsDiff + " " + secondsDiff)
+  }
 
   return (
    <>
@@ -51,7 +75,7 @@ const Posts = () => {
               </div>
               <h3>{post.node.frontmatter.title}</h3>
               <p>{post.node.frontmatter.desc}</p>
-              <small>{post.node.frontmatter.theme} - {post.node.frontmatter.date}</small> 
+              <small>{post.node.frontmatter.theme} - {timeDiff(post.node.frontmatter.date)}</small> 
             </section>
             </Link>
           )
@@ -66,7 +90,7 @@ const Posts = () => {
               </div>
               <h3>{post.node.frontmatter.title}</h3>
               <p>{post.node.frontmatter.desc}</p>
-              <small>{post.node.frontmatter.date}</small>
+              <small>{timeDiff(post.node.frontmatter.date)}</small>
             </section>
             </Link>
           )
@@ -79,7 +103,7 @@ const Posts = () => {
             <section className="post">
               <h3>{post.node.frontmatter.title}</h3>
               <p>{post.node.frontmatter.desc}</p>
-              <small>{post.node.frontmatter.theme} - {post.node.frontmatter.date}</small> 
+              <small>{post.node.frontmatter.theme} - {timeDiff(post.node.frontmatter.date)}</small> 
             </section>
             </Link>
           )
@@ -91,7 +115,7 @@ const Posts = () => {
               <section className="post">
                 <h3 className="lone">{post.node.frontmatter.title}</h3>
                 <p>{post.node.frontmatter.desc}</p>
-                <small>{post.node.frontmatter.date}</small>
+                <small>{timeDiff(post.node.frontmatter.date)}</small>
               </section>
             </Link>
           )
