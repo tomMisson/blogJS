@@ -31,23 +31,42 @@ const Posts = () => {
   const timeDiff = (postDate) => {
     var currentDate = Date.now()
     var splitDate = postDate.split(/([-\s:])/g)
+    var offset = new Date().getTimezoneOffset();
 
     postDate = Date.UTC(splitDate[0],parseInt(splitDate[2])-1+"", splitDate[4],splitDate[6],splitDate[8])
 
     var diff = currentDate - postDate;
 
-    // //Exact
-    var secondsDiff = Math.round(diff/1000);
-    var minsDiff = Math.round(secondsDiff/60);
-    var hoursDiff = Math.round(minsDiff/60);
-    var days = Math.round(hoursDiff/24);
+    //Exact
+    var mins = -(offset-Math.round(diff/(1000*60)));
+    var hours = -((offset/60)-Math.round(diff/(1000*60*60)));
+    var days = -(Math.round(offset/(60*24))-Math.round(diff/(1000*60*60*24)));
 
-    //Relative
-    hoursDiff = Math.round(hoursDiff-(days*24))
-    minsDiff = Math.round(minsDiff - hoursDiff*60)
-    secondsDiff = Math.round(secondsDiff -(minsDiff*60))
-
-    console.log("Difference:" + days + " " + hoursDiff + " " + minsDiff + " " + secondsDiff)
+    if(days===0)
+    {
+      if(hours===0)
+        if(mins===1||mins===0)
+          return "1 min ago"
+        else
+          return mins + " mins ago"
+      else if(hours>days) 
+        if(hours===1)
+          return "1 hour ago"
+        else
+          return hours + " hours ago"
+    } 
+    else
+      if(days<30)
+        return days+ " days ago"
+      else if(days>=30 && days<=60)
+        return "1 month ago"
+      else if(days>30 && days<365)
+          return days%30 + " months ago"
+      else
+        if(days/365 === 1)
+          return "1 year ago"
+        else
+          return Math.trunc(days/365) + " years ago"
   }
 
   return (
