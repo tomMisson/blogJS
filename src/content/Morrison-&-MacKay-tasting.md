@@ -2,7 +2,7 @@
 title: 🥃 Morrison & MacKay tasting
 date: 2020-04-29 11:35
 path: /morrison-and-mackay-tasting/
-desc: This tasting was a collection of 6 drams ranging from a 4yo to cask strength "Celebration of the Cask" to grain whisky! Join me as I find out about the drams, their geography and complection. 
+desc: This tasting was a collection of 6 drams ranging from a 4yo to "Celebration of the Cask" to grain whisky! 
 theme: Drinks 
 titleimg: https://www.mandmwhisky.co.uk/wp-content/uploads/2014/04/MM-Logo-300x3001.png
 visible: true
