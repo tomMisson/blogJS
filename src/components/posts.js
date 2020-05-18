@@ -88,7 +88,7 @@ const Posts = () => {
             <Link className="postLink" to={post.node.frontmatter.path} key={post.node.frontmatter.path}>
             <section className="post">
               <div>
-                <img alt="title card" width="100" height="100" src={post.node.frontmatter.titleimg}/>
+                <img alt="title card" width="200" height="200" src={post.node.frontmatter.titleimg}/>
               </div>
               <h3>{post.node.frontmatter.title}</h3>
               <p>{post.node.frontmatter.desc}</p>
@@ -103,7 +103,7 @@ const Posts = () => {
             <Link className="postLink" to={post.node.frontmatter.path} key={post.node.frontmatter.path}>
             <section className="post">
               <div>
-                <img alt="title card" width="100" height="100" src={post.node.frontmatter.titleimg}/>
+                <img alt="title card" width="200" height="200" src={post.node.frontmatter.titleimg}/>
               </div>
               <h3>{post.node.frontmatter.title}</h3>
               <p>{post.node.frontmatter.desc}</p>
