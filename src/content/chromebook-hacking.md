@@ -1,8 +1,8 @@
 ---
 title: 💻 Hacking on ChromeOS
-date: 2020-05-17 14:30
+date: 2020-05-20 23:38
 path: /chrome-os/
-desc: Yep you heard me, I ACTUALLY use chromeOS non-ironically and now attend hackathons with just a chromebook. A £180 chromebook can do just about anything you want, but you might have to be patient. 
+desc: Yep you heard me, I ACTUALLY use chromeOS non-ironically and now attend hackathons with just a chromebook. A £180 chromebook can do just about anything you want.
 titleimg: https://pngimg.com/uploads/chrome_logo/chrome_logo_PNG17.png
 visible: true
 ---
