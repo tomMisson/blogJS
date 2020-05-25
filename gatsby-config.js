@@ -3,9 +3,11 @@ module.exports = {
     title: `The drink powered blogathon`,
     description: `Welcome to my corner of the internet! This page will detail hacks and bodges I have done with tech, travel, food and drink and just about anything else under the sun that I want to write about.`,
     author: `Tom Misson`,
-    theme_color:'#fc9403'
+    theme_color:'#fc9403',
+    siteUrl: `https://blog.tommisson.uk`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
