@@ -1,5 +1,5 @@
 ---
-title:💻 Working my dream job - Week 1
+title: 💻 Working my dream job - Week 1
 date: 2020-06-09 18:17
 path: /first-week-at-work/
 desc: So I finally started my job as a Software Developer at Masters of Malt and it has been a truly amazing first week. Buckle in as I tell you all about my first week as a Software Developer.
