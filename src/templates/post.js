@@ -26,7 +26,7 @@ export default function Template({ data }) {
         />
       </div>
       <Footer/>
-    <SEO/>
+    </SEO>
   )
 }
 export const pageQuery = graphql`
