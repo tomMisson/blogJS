@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import "../components/styles.css"
+import SEO from "../components/seo"
 
 
 export default function Template({ data }) {
@@ -11,7 +12,7 @@ export default function Template({ data }) {
   
   
   return (
-    <>
+    <SEO title={frontmatter.title}>
       <Header/>
       <div className="blog-post">
         <div className="sub-header">
@@ -25,7 +26,7 @@ export default function Template({ data }) {
         />
       </div>
       <Footer/>
-    </>
+    <SEO/>
   )
 }
 export const pageQuery = graphql`
