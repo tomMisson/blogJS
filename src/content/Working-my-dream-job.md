@@ -10,13 +10,13 @@ visible: true
 
 ## So where am I actually working? 👷‍♂️
 
-So I said I am working for [Master of Malt](https://www.masterofmalt.com/) but who actually are they? Well they're they UK's biggest Gin and Whisky distributor and you can quickly begin to imagine why I am calling this a dream job💭. So before we go on, let me clarify, no I sadly don't get to taste the drinks, however there are some very nice perks of the job 😉 They are a really cool company to work for though as their core beliefs are very inline with how I think and the culture of the people there are very let loose and wear thier personality on their sleeve. Something I really find easy to integrate with which ties in nicely to my next point. 
+So I said I am working for [Master of Malt](https://www.masterofmalt.com/) but who actually are they? Well they're they UK's biggest Gin and Whisky distributor and you can quickly begin to imagine why I am calling this a dream job💭. So before we go on, let me clarify, no I sadly don't get to taste the drinks, however there are some very nice perks of the job 😉 They are a really cool company to work for though as their core beliefs are very inline with how I think and the culture of the people there are very let loose and wear their personality on their sleeve. Something I really find easy to integrate with which ties in nicely to my next point. 
 
 ## The team 
 
 <iframe src="https://giphy.com/embed/moHRAoGsLBg88" width="480" height="329" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-The team I am a part of (the dev team) is a team of ~30 people and honestly, it sounds like a lot but it really isn't. Full of really amazing people who are great to chat to and willing to lend a hand if they aren't to busy. I have had moments where I didn't know who to go to and someone has always helped me. Shout out to Manny and Joao who have been stars ⭐ in helping me get settled. 
+The team I am a part of (the dev team) is a team of ~30 people and honestly, it sounds like a lot but it really isn't. Full of really amazing people who are great to chat to and willing to lend a hand if they aren't too busy. I have had moments where I didn't know who to go to and someone has always helped me. Shout out to Manny and Joao who have been stars ⭐ in helping me get settled. 
 
 ## That being said, how's the job?
 
