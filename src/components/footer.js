@@ -11,7 +11,7 @@ const Footer = () => (
         <p>
         © {new Date().getFullYear()}
         {` `}
-        Tom Misson
+        <a title="Landing page" href="https://tommisson.uk">Tom Misson</a>
         </p>
     </footer>
 )
