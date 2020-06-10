@@ -13,7 +13,7 @@ export default function Template({ data }) {
   
   return (
     <>
-      <SEO title={frontmatter.title}/>
+      <SEO title={frontmatter.title} description={frontmatter.desc} lang="en_GB"/>
       <Header/>
       <div className="blog-post">
         <div className="sub-header">
