@@ -14,7 +14,7 @@ So I said I am working for [Master of Malt](https://www.masterofmalt.com/) but w
 
 ## The team 
 
-<iframe src="https://giphy.com/embed/moHRAoGsLBg88" width="480" height="329" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+![The A team](https://media1.giphy.com/media/moHRAoGsLBg88/giphy.gif)
 
 The team I am a part of (the dev team) is a team of ~30 people and honestly, it sounds like a lot but it really isn't. Full of really amazing people who are great to chat to and willing to lend a hand if they aren't too busy. I have had moments where I didn't know who to go to and someone has always helped me. Shout out to Manny and Joao who have been stars ⭐ in helping me get settled. 
 
