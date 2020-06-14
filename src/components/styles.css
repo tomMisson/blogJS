@@ -95,6 +95,10 @@ footer p{
     padding-top: 30px;
 }
 
+code{
+    background-color:rgba(9, 30, 66, 0.08);
+}
+
 @media screen and (min-width: 764px) {
     .post{
         width: 80%;
