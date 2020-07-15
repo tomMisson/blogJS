@@ -40,7 +40,7 @@ As I have said, this week has been challanging. It has been mentally exhausting 
 My personal goals for next week after reflecting on this past week are to: 
 
 * I want to set out a clear set of goals with my line managers to be able to track my progress and make sure they're happy with what I am doing. 
-* I am going to try to say no to important meetings and understand the value behind my time. 
+* I am going to try to say no to unimportant meetings and understand the value behind my time. 
 * I am also going to try and be critical with my review of the code I am writing and questioning efficency as I am learning that with C# there are a **lot** of really cool things that you can do with LINQ and T classes. 
 
 Well, with all that said, I'll keep you posted on how it is going at 30 days in!
